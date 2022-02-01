@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- My Style Sheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Lobster&display=swap" rel="stylesheet">
+    <title>Hangman Game</title>
+
+</head>
+
+<body>
+    <main class="container">
+        <header>
+            <span>Hangman Game</span>
+            <span>Word From: <span class="category"></span></span>
+        </header>
+        <!-- game container -->
+        <div class="game-container">
+            <!-- the draw section -->
+            <div class="the-draw-section">
+                <div class="the-draw">
+                    <div class="stand"></div>
+                    <div class="hang"></div>
+                    <div class="rope"></div>
+                    <div class="the-man">
+                        <div class="head"></div>
+                        <div class="body"></div>
+                        <div class="legs"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- letters -->
+            <div class="letters"></div>
+        </div>
+        <div class="the-category-word"></div>
+    </main>
+    <!-- end game message -->
+    <div class="overlay"></div>
+    <div class="end-game"></div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
